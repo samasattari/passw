@@ -4,4 +4,4 @@ from .models import Password
 class PasswordForm(ModelForm):
     class Meta:
         model = Password
-        fields = "__all__"
+        fields = "username", "password", "url"

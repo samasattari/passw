@@ -7,3 +7,6 @@ class Password (models.Model):
     password = models.CharField(max_length=225 ,verbose_name='رمز عبور')
     username = models.CharField(max_length=50,verbose_name='نام')
     description = models.TextField(max_length=200 ,blank=True ,null=True ,verbose_name='توضیحات')
+
+    def __str__(self):
+        return self.url

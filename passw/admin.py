@@ -3,3 +3,5 @@ from .models import Password
 
 # Register your models here.
 admin.site.register(Password)
+
+
